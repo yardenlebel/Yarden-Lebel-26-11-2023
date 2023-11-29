@@ -25,7 +25,7 @@ export default function Geolocation(props) {
             if(latitude!=''&&longitude!=''){
                 try {
             
-                    fetch(`http://dataservice.accuweather.com/locations/v1/cities/geoposition/search?apikey=NGBkAiMlFGldtzYt2HLNQ9ew12Wr5qx6&q=${latitude}%2C${longitude}`).then((res)=>{return res.json()}).then((data)=>{
+                    fetch(`https://dataservice.accuweather.com/locations/v1/cities/geoposition/search?apikey=NGBkAiMlFGldtzYt2HLNQ9ew12Wr5qx6&q=${latitude}%2C${longitude}`).then((res)=>{return res.json()}).then((data)=>{
                         if (data) { //if we got data from api
                         
                         city={name:data.LocalizedName,id:data.Key,fav:false,weather:{temp:'',desc:'',iconSrc:''}};
