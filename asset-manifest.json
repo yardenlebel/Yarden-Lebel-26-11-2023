@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Yarden-Lebel-26-11-2023/static/css/main.a3ebf4eb.css",
-    "main.js": "/Yarden-Lebel-26-11-2023/static/js/main.4d055a3d.js",
+    "main.css": "/Yarden-Lebel-26-11-2023/static/css/main.ee5bdbbc.css",
+    "main.js": "/Yarden-Lebel-26-11-2023/static/js/main.2a2134b4.js",
     "static/js/787.82cdd233.chunk.js": "/Yarden-Lebel-26-11-2023/static/js/787.82cdd233.chunk.js",
     "index.html": "/Yarden-Lebel-26-11-2023/index.html",
-    "main.a3ebf4eb.css.map": "/Yarden-Lebel-26-11-2023/static/css/main.a3ebf4eb.css.map",
-    "main.4d055a3d.js.map": "/Yarden-Lebel-26-11-2023/static/js/main.4d055a3d.js.map",
+    "main.ee5bdbbc.css.map": "/Yarden-Lebel-26-11-2023/static/css/main.ee5bdbbc.css.map",
+    "main.2a2134b4.js.map": "/Yarden-Lebel-26-11-2023/static/js/main.2a2134b4.js.map",
     "787.82cdd233.chunk.js.map": "/Yarden-Lebel-26-11-2023/static/js/787.82cdd233.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3ebf4eb.css",
-    "static/js/main.4d055a3d.js"
+    "static/css/main.ee5bdbbc.css",
+    "static/js/main.2a2134b4.js"
   ]
 }
