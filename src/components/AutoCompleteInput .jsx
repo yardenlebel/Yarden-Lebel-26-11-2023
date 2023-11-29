@@ -7,7 +7,7 @@ export default function AutoCompleteInput (props) {
     useEffect(() => {
         const fetchSuggestions = async () => {
           try {
-            fetch(`http://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=	NGBkAiMlFGldtzYt2HLNQ9ew12Wr5qx6&q=${cityLocal}&language=en-us`).then((res)=>{return res.json()}).then((data)=>{
+            fetch(`https://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=	NGBkAiMlFGldtzYt2HLNQ9ew12Wr5qx6&q=${cityLocal}&language=en-us`).then((res)=>{return res.json()}).then((data)=>{
                 if (data) { 
                 setSuggestions(data);}
             });
@@ -35,7 +35,7 @@ export default function AutoCompleteInput (props) {
          
             if(cityLocal!=''){//to find the city key
               try {
-                      fetch(`http://dataservice.accuweather.com/locations/v1/cities/search?apikey=	NGBkAiMlFGldtzYt2HLNQ9ew12Wr5qx6&q=${cityLocal}`).then((res)=>{return res.json()}).then((data)=>{
+                      fetch(`https://dataservice.accuweather.com/locations/v1/cities/search?apikey=	NGBkAiMlFGldtzYt2HLNQ9ew12Wr5qx6&q=${cityLocal}`).then((res)=>{return res.json()}).then((data)=>{
                       if (data) { 
                         let c=[];
                         if(props.favoritesArr.length>0){//if there are favorites
