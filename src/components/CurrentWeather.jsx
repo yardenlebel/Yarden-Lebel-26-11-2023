@@ -6,7 +6,7 @@ export default function CurrentWeather(props) {
   useEffect(() => {
     if(props.city!=''){
       try {
-        fetch(`http://dataservice.accuweather.com/currentconditions/v1/${props.city.id}?apikey=	NGBkAiMlFGldtzYt2HLNQ9ew12Wr5qx6`).then((res)=>{return res.json()}).then((data)=>{
+        fetch(`https://dataservice.accuweather.com/currentconditions/v1/${props.city.id}?apikey=	NGBkAiMlFGldtzYt2HLNQ9ew12Wr5qx6`).then((res)=>{return res.json()}).then((data)=>{
             if (data) { //if we got data from api
             var src='';
             if(data[0].WeatherIcon<10)
