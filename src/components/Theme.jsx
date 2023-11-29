@@ -11,7 +11,7 @@ export default function Theme({ label, toggled, onClick }) {
   return (
     <div >
     <label>
-            <input id='toggleI' type="checkbox" defaultChecked={isToggled} onClick={callback} />
+            <input className='toggleI' type="checkbox" defaultChecked={isToggled} onClick={callback} />
             <span />
             <strong>{label}</strong>
     </label>
