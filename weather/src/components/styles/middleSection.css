@@ -1,0 +1,102 @@
+/* middle */
+div#allBodyD{
+    display:'flex';
+    flex-Direction:'column';
+    justify-Content:'space-between';
+    align-Content:'center'
+}
+.App {
+    font-family: cursive;
+    text-align: center;
+    text-transform: capitalize
+}
+div#middleD {
+    display: flex;
+    justify-content: space-evenly;
+    height: 80px;
+    margin-bottom: 7%;
+    flex-direction: column;
+    padding-top: 8%;
+    align-items: center;
+}
+/* SearchInput */
+input#searchI{
+    text-transform: capitalize;
+    z-index: 1;
+    height: 30%;
+    align-self: center;
+    width: 70%;
+    margin-left: 25%;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+button#searchI {
+    background: transparent;
+    border: transparent;
+}
+svg {
+    height: 50px;
+    width: 40px;
+}
+
+div#firstMiddle {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+div#search {
+    display: flex;
+    width: 60%;
+    margin-right: 2%;
+}
+/* CurrentWeather */
+div#currentD {
+    line-height: 0;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+h1#titleCurrent {
+    font-size: 50px;
+}
+div#currentT {
+    padding-left: 2%;
+    font-size: 33px;
+}
+img#currentImg {
+    width: 100%;
+    height: 100%;
+}
+
+div#currentImgDiv {
+    width: 50%;
+}
+h6 {
+    margin-top: auto;
+}
+/* FavoritesButton */
+div#favD {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+}
+div#favP {
+    margin-top: 15%;
+    font-size: 20px;
+    margin-bottom: -10%;
+}
+
+.go4268192979 {
+    margin-right: 9%;
+}
+
+
+
+
+
+
+
