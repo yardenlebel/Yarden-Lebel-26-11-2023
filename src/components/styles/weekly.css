@@ -1,11 +1,11 @@
 div#weeklyD{
     display:flex;
-    justify-Content:space-between;
+    justify-Content:space-evenly;
     text-Align:center;
     margin-top: 10%;
 }
 .weekD {
-    /* width: 18%;     */
+    width: 18%;    
     border:1px black solid;
     display: flex;
     flex-direction: column;
