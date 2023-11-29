@@ -6,7 +6,7 @@ export default function WeeklyW(props) {
     useEffect(() => {
       if(props.city!=''){
         try {
-          fetch(`http://dataservice.accuweather.com/forecasts/v1/daily/5day/${props.city.id}?apikey=	NGBkAiMlFGldtzYt2HLNQ9ew12Wr5qx6&metric=${props.tempFormat}`).then((res)=>{return res.json()}).then((data)=>{
+          fetch(`https://dataservice.accuweather.com/forecasts/v1/daily/5day/${props.city.id}?apikey=	NGBkAiMlFGldtzYt2HLNQ9ew12Wr5qx6&metric=${props.tempFormat}`).then((res)=>{return res.json()}).then((data)=>{
               if (data) { //if we got data from api
               
               setWeekArr(data.DailyForecasts)
