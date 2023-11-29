@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/yardenlebel/Yarden-Lebel-26-11-2023.git/static/css/main.a3ebf4eb.css",
+    "main.js": "/yardenlebel/Yarden-Lebel-26-11-2023.git/static/js/main.b536cf64.js",
+    "static/js/787.82cdd233.chunk.js": "/yardenlebel/Yarden-Lebel-26-11-2023.git/static/js/787.82cdd233.chunk.js",
+    "index.html": "/yardenlebel/Yarden-Lebel-26-11-2023.git/index.html",
+    "main.a3ebf4eb.css.map": "/yardenlebel/Yarden-Lebel-26-11-2023.git/static/css/main.a3ebf4eb.css.map",
+    "main.b536cf64.js.map": "/yardenlebel/Yarden-Lebel-26-11-2023.git/static/js/main.b536cf64.js.map",
+    "787.82cdd233.chunk.js.map": "/yardenlebel/Yarden-Lebel-26-11-2023.git/static/js/787.82cdd233.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3ebf4eb.css",
+    "static/js/main.b536cf64.js"
+  ]
+}
